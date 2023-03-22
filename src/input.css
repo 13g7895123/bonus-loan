@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .title{
+        @apply text-4xl text-[#4d4d4d] font-extrabold leading-[170%];
+    }
+    .iconbox{
+        @apply w-[132px] h-[132px] border border-slate-500 rounded-full flex justify-center items-center;
+    }
+    .inf2_p{
+        @apply w-[calc(85%-10px)] md:w-[calc(85%-40px)] text-[#838383] text-justify font-semibold py-3 md:py-[35px] px-3 md:px-[15px] bg-[#e5e5e594] rounded-lg
+    }
+}
