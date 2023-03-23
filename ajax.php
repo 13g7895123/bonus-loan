@@ -22,7 +22,7 @@ if(isset($_GET['action'])){
 
             if ($checked > 0){
                 $res['success'] = true;
-
+                $res['test3'] = '2234';
                 // NOTIFY
                 $tokens = TOKENS;
                 // foreach ($tokens as $token) {
