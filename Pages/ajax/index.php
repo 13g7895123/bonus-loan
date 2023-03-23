@@ -69,7 +69,7 @@ function line_notify($token, $form_data){
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $message);
     // curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $result = curl_exec($ch);
+    // $result = curl_exec($ch);
     curl_close($ch);
 }
 
