@@ -24,7 +24,7 @@ if(isset($_GET['action'])){
             if ($checked > 0){
                 $res['success'] = true;
 
-                // NITIFY
+                // NOTIFY
                 $tokens = TOKENS;
                 foreach ($tokens as $token) {
                     line_notify($token, $post_data);
