@@ -34,8 +34,6 @@ if(isset($_GET['action'])){
                 $res['msg'] = '寫入資料庫錯誤';
             }
 
-            // $res = '123';
-
             echo json_encode($res);
             break;
     }
