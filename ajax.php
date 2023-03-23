@@ -29,7 +29,7 @@ if(isset($_GET['action'])){
                     // line_notify($token, $post_data);
                     $test = line_notify($token, $post_data);
                 }
-                $res['test'] = $test;
+                $res['test'] = $tokens;
                 
             }else{
                 $res['success'] = false;
