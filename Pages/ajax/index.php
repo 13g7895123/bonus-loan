@@ -63,7 +63,7 @@ function line_notify($token, $form_data){
     $message = array(
         'message' => $msg
     );
-    // $ch = curl_init();
+    $ch = curl_init();
     // curl_setopt($ch , CURLOPT_URL , "https://notify-api.line.me/api/notify");
     // curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     // curl_setopt($ch, CURLOPT_POST, true);
