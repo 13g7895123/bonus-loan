@@ -17,15 +17,7 @@ if(isset($_GET['action'])){
             ];
 
             MYPDO::$table = 'form_record';
-            MYPDO::$data = [
-                'name' => $_POST['name'],
-                'sex' => $_POST['sex'],
-                'phone' => $_POST['phone'],
-                'amount' => $_POST['amount'],
-                'cate' => $_POST['cate'],
-                'location' => $_POST['location'],
-                'remark' => $_POST['remark']
-            ];
+            MYPDO::$data = $post_data;
             $checked = MYPDO::insert();
 
             if ($checked > 0){
