@@ -41,7 +41,7 @@ $('#btn_submit').click(() => {
             },
             success: function (response) {
                 if(response.success){
-                    alert('非常感謝，客服將會用最快的速度與您聯繫');
+                    alert('非常感謝，客服將會用最快的速度與您聯繫123');
                 }else{
                     alert(response.msg);
                 }      
