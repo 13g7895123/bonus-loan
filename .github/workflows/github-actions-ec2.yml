@@ -25,4 +25,4 @@ jobs:
           # TARGET: ${{ secrets.TARGET_DIR }}
           script: |
             cd /var/www/html/bonus-loan
-            git pull
+            sudo git pull
