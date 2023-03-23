@@ -72,7 +72,8 @@ function line_notify($token, $form_data){
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $result = curl_exec($ch);
     curl_close($ch);
-    return $msg;
+
+    return $token;
 }
 
 ?>
