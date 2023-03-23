@@ -30,7 +30,7 @@ if(isset($_GET['action'])){
                 //     $test = line_notify($token, $post_data);
                 // }
                 $res['test'] = $tokens;
-                
+                $res['test2'] = '1234';
             }else{
                 $res['success'] = false;
                 $res['msg'] = '寫入資料庫錯誤';
