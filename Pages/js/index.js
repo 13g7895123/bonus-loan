@@ -9,7 +9,7 @@ $('#btn_submit').click(() => {
     // get value
     var name = $('input[name="name"]').val();
     var sex = $('select[name="sex"]').find(':selected').val();
-    var phone = $('input[name="phone"]').val();
+    var phone = $('input[name="phone"]').val().replace(/\s*/g,"");;
     var amount = $('input[name="amount"]').val();
     var cate = $('select[name="cate"]').find(':selected').text();
     var location = $('select[name="location"]').find(':selected').text();
@@ -23,7 +23,7 @@ $('#btn_submit').click(() => {
     }else{
         $.ajax({
             type: "POST",
-            url: `../Pages/ajax/index.php?action=submit`,
+            url: `../bonus-loan/Pages/ajax/index.php?action=submit`,
             // url: `./ajax/index.php?action=submit`,
             // url: `./Pages/ajax/index.php?action=submit`,
             // url: `../ajax/index.php?action=submit`,
