@@ -6,43 +6,43 @@ if(isset($_GET['action'])){
     switch ($_GET['action']) {
         case 'submit':
 
-            // $post_data = [
-            //     'name' => $_POST['name'],
-            //     'sex' => $_POST['sex'],
-            //     'phone' => $_POST['phone'],
-            //     'amount' => $_POST['amount'],
-            //     'cate' => $_POST['cate'],
-            //     'location' => $_POST['location'],
-            //     'remark' => $_POST['remark']
-            // ];
+            $post_data = [
+                'name' => $_POST['name'],
+                'sex' => $_POST['sex'],
+                'phone' => $_POST['phone'],
+                'amount' => $_POST['amount'],
+                'cate' => $_POST['cate'],
+                'location' => $_POST['location'],
+                'remark' => $_POST['remark']
+            ];
 
-            // MYPDO::$table = 'form_record';
-            // MYPDO::$data = [
-            //     'name' => $_POST['name'],
-            //     'sex' => $_POST['sex'],
-            //     'phone' => $_POST['phone'],
-            //     'amount' => $_POST['amount'],
-            //     'cate' => $_POST['cate'],
-            //     'location' => $_POST['location'],
-            //     'remark' => $_POST['remark']
-            // ];
-            // $checked = MYPDO::insert();
+            MYPDO::$table = 'form_record';
+            MYPDO::$data = [
+                'name' => $_POST['name'],
+                'sex' => $_POST['sex'],
+                'phone' => $_POST['phone'],
+                'amount' => $_POST['amount'],
+                'cate' => $_POST['cate'],
+                'location' => $_POST['location'],
+                'remark' => $_POST['remark']
+            ];
+            $checked = MYPDO::insert();
 
-            // if ($checked > 0){
-            //     $res['success'] = true;
+            if ($checked > 0){
+                $res['success'] = true;
 
-            //     // NITIFY
-            //     $tokens = TOKENS;
-            //     foreach ($tokens as $token) {
-            //         line_notify($token, $post_data);
-            //     }
+                // NITIFY
+                // $tokens = TOKENS;
+                // foreach ($tokens as $token) {
+                //     line_notify($token, $post_data);
+                // }
                 
-            // }else{
-            //     $res['success'] = false;
-            //     $res['msg'] = '寫入資料庫錯誤';
-            // }
+            }else{
+                $res['success'] = false;
+                $res['msg'] = '寫入資料庫錯誤';
+            }
 
-            $res = '123';
+            // $res = '123';
 
             echo json_encode($res);
             break;
