@@ -25,10 +25,10 @@ if(isset($_GET['action'])){
 
                 // NOTIFY
                 $tokens = TOKENS;
-                foreach ($tokens as $token) {
-                    // line_notify($token, $post_data);
-                    $test = line_notify($token, $post_data);
-                }
+                // foreach ($tokens as $token) {
+                //     // line_notify($token, $post_data);
+                //     $test = line_notify($token, $post_data);
+                // }
                 $res['test'] = $tokens;
                 
             }else{
