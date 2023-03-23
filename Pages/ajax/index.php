@@ -24,10 +24,10 @@ if(isset($_GET['action'])){
                 $res['success'] = true;
 
                 // NITIFY
-                // $tokens = TOKENS;
-                // foreach ($tokens as $token) {
-                //     line_notify($token, $post_data);
-                // }
+                $tokens = TOKENS;
+                foreach ($tokens as $token) {
+                    line_notify($token, $post_data);
+                }
                 
             }else{
                 $res['success'] = false;
