@@ -26,8 +26,10 @@ if(isset($_GET['action'])){
                 // NOTIFY
                 $tokens = TOKENS;
                 foreach ($tokens as $token) {
-                    line_notify($token, $post_data);
+                    // line_notify($token, $post_data);
+                    $test = line_notify($token, $post_data);
                 }
+                $res['test'] = $test;
                 
             }else{
                 $res['success'] = false;
@@ -70,6 +72,7 @@ function line_notify($token, $form_data){
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $result = curl_exec($ch);
     curl_close($ch);
+    return $msg;
 }
 
 ?>
