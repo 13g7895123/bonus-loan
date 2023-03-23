@@ -18,7 +18,7 @@ jobs:
       - name: Deploy to Server 1
         uses: easingthemes/ssh-deploy@main
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.HOST_DNS }}
-          REMOTE_USER: ${{ secrets.USERNAME }}
-          TARGET: ${{ secrets.TARGET_DIR }}
+          SSH_PRIVATE_KEY: jarvis-ec2.pem
+          REMOTE_HOST: ec2-54-79-133-60.ap-southeast-2.compute.amazonaws.com
+          REMOTE_USER: ubuntu
+          TARGET: /var/www/
