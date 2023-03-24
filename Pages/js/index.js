@@ -5,7 +5,7 @@ $('input[name="amount"]').val('');
 $('textarea[name="remark"]').val('');
 
 // test
-alert('123')
+alert('234')
 
 // submit button
 $('#btn_submit').click(() => {
