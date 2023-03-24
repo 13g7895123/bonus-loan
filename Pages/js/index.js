@@ -4,9 +4,6 @@ $('input[name="phone"]').val('');
 $('input[name="amount"]').val('');
 $('textarea[name="remark"]').val('');
 
-// test
-alert('234')
-
 // submit button
 $('#btn_submit').click(() => {
     // get value
