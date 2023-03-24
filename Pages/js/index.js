@@ -23,7 +23,7 @@ $('#btn_submit').click(() => {
     }else{
         $.ajax({
             type: "POST",
-            url: `../bonus-loan/Pages/ajax/index.php?action=submit`,
+            url: `../Pages/ajax/index.php?action=submit`,
             // url: `./ajax/index.php?action=submit`,
             // url: `./Pages/ajax/index.php?action=submit`,
             // url: `../ajax/index.php?action=submit`,
