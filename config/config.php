@@ -17,7 +17,7 @@ const SESSION_TIMEOUT = 86400; //session保留時間(單位秒)
 *   ▲ (最後一筆資料後面不用逗號)
 */
 const TOKENS = [
-    // 'jt3oo7UcH4YI9xx37cK0dqr14zjqrrp1LEZmpdz2lA4',
+    'jt3oo7UcH4YI9xx37cK0dqr14zjqrrp1LEZmpdz2lA4',
     // 'tIImuI6WJtHRhYtEd8s7z0XKCAfeHEG9Yk6xcfeicxK',
     // 'jgcp1tV0ZT8gVxWlRLJ3oBZLaFNhsIPMQHiwKzCcaf2',
     'TsBgsiWQMVSOy4l6QCeNfijhJQnYhI9BH9L1bS73x13'
