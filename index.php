@@ -225,9 +225,9 @@
     <!-- footer -->
     <div class='h-42 w-screen bg-[#f08b33] flex flex-col md:flex-row items-center justify-around pb-5 md:pb-0'>
         <!-- logo -->
-        <!-- <div class=''>
+        <div class=''>
             <img src='./asset/img/logo0520.png' class=' w-72 px-10'>            
-        </div> -->
+        </div>
         <!-- contact us -->
         <div class='text-xl text-white font-bold flex flex-col justify-center md:flex-row md:items-center px-5 md:border-x-4 border-white'>
             <div class='border-b-4 md:border-none mb-3 md:mb-0 border-white text-2xl'>CONTACT US</div>
