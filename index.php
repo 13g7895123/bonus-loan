@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鴻遠資產管理</title>
+    <title>易速貸</title>
 
     <link rel="stylesheet" href="./dist/output.css" > 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -15,7 +15,7 @@
         <div class='h-full flex md:flex justify-between items-center px-3 md:px-10'>
             <div class='md:hidden'></div>
             <div class='text-[#6a6a6a] text-4xl font-extrabold'>
-                <img src='./asset/img/logo.png' class='w-60 py-2'>
+                <img src='./asset/img/logo0520.png' class='w-60 py-2'>
             </div>
             <div id='nav_btn' class='hidden md:flex justify-around'>
                 <a href='javascript:void(1)' link='home' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>首頁</a>
@@ -43,14 +43,14 @@
                 <div class='text-2xl font-extrabold border-b-2 border-slate-500 inline-block'>CONTACT US</div>
             </div>
             <div class='flex'>
-                <a href='https://line.naver.jp/ti/p/~0907381132' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mr-3'></a>
-                <a href='tel:+886-907381132' target='_blank'><img src='./asset/img/phone.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer'></a>
+                <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mr-3'></a>
+                <a href='tel:+886-979560990' target='_blank'><img src='./asset/img/phone.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer'></a>
             </div>
         </div>
     </div>
     <!-- picture1 -->
     <div id='home' class='w-screen h-[250px] md:h-[830px] bg-bg_pic bg-cover bg-center relative'>
-        <a href='https://line.naver.jp/ti/p/~0907381132' class='w-full h-full cursor-pointer absolute' target='_blank'></a>
+        <a href='https://line.naver.jp/ti/p/~0979560990' class='w-full h-full cursor-pointer absolute' target='_blank'></a>
     </div>
     <!-- inf1 -->
     <div id='aboutus' class='flex flex-col items-center bg-white pt-16 md:pt-[100px]'>
@@ -217,31 +217,31 @@
     <!-- textinfo -->
     <div class='py-[5vw] flex flex-col justify-center items-center bg-opacity-50 bg-slate-700'>
         <div class='text-xl md:text-3xl text-[#d6ae78] font-extrabold text-justify px-3'>全台皆可服務，周轉不求人，線上加入諮詢。免聯徵，免保人個資絕對保密。</div>
-        <div class='flex mt-5'>
-            <a href='https://line.naver.jp/ti/p/~0907381132' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#7b7a61] flex justify-center items-center cursor-pointer rounded-full'>LINE線上客服</div></a>
-            <a href='tel:+886-907381132' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#c39866] flex justify-center items-center cursor-pointer rounded-full'>立即來電</div></a>
-        </div>
+        <!-- <div class='flex mt-5'>
+            <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#7b7a61] flex justify-center items-center cursor-pointer rounded-full'>LINE線上客服</div></a>
+            <a href='tel:+886-979560990' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#c39866] flex justify-center items-center cursor-pointer rounded-full'>立即來電</div></a>
+        </div> -->
     </div>
     <!-- footer -->
-    <div class='w-screen bg-[#838383] flex flex-col md:flex-row items-center justify-around pb-5 md:pb-0'>
+    <div class='w-screen bg-[#f08b33] flex flex-col md:flex-row items-center justify-around pb-5 md:pb-0'>
         <!-- logo -->
         <div class=''>
-            <img src='./asset/img/logo.png' class=' w-72 px-10'>            
+            <img src='./asset/img/logo0520.png' class=' w-72 px-10'>            
         </div>
         <!-- contact us -->
         <div class='text-xl text-white font-bold flex flex-col justify-center md:flex-row md:items-center px-5 md:border-x-4 border-white'>
             <div class='border-b-4 md:border-none mb-3 md:mb-0 border-white text-2xl'>CONTACT US</div>
             <div class='flex items-center'>
-                <a href='https://line.naver.jp/ti/p/~0907381132' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mx-3'></a>
-                <a href='tel:+886-907381132' target='_blank'><img src='./asset/img/phone.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer'></a>
+                <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mx-3'></a>
+                <a href='tel:+886-979560990' target='_blank'><img src='./asset/img/phone.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer'></a>
             </div>
         </div>
     </div>
     <!-- mobile footer btn -->
     <div class='w-screen h-[52px] md:hidden bg-white'></div>
     <div class='w-screen h-[52px] fixed flex bottom-0 md:hidden'>
-        <a href='tel:+886-907381132' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-[#2196f3] cursor-pointer text-white text-xl'>立即來電</a>
-        <a href='https://line.naver.jp/ti/p/~0907381132' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-green-500 cursor-pointer text-white text-xl'>加入好友</a>
+        <a href='tel:+886-979560990' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-[#2196f3] cursor-pointer text-white text-xl'>立即來電</a>
+        <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-green-500 cursor-pointer text-white text-xl'>加入好友</a>
     </div>
     <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="./Pages/js/index.js"></script>   
