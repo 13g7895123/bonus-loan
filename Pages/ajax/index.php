@@ -45,6 +45,7 @@ function line_notify($token, $form_data){
     $sex = $form_data['sex'] == 'M' ? '男' : '女';
 
     $msg = PHP_EOL.
+        '【易速網官網通知】'.PHP_EOL.
         '【姓名】'.$form_data['name'].PHP_EOL.
         '【性別】'.$sex.PHP_EOL.
         '【手機】'.$form_data['phone'].PHP_EOL.
