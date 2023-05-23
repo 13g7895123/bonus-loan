@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com /gtag/is?id=G-HSXGYC8MEQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('is', new Date());
+        gtag('config','G-HSXGYC8MEQ');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KW67D7R');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +23,14 @@
 
     <link rel="stylesheet" href="./dist/output.css" > 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
 </head>
 <body class='bg-bg_pic bg-fixed relative overflow-y-scroll overflow-x-hidden'>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW67D7R"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <!-- nav -->
     <div class='w-screen h-[100px] fixed bg-white z-10'>
         <div class='h-full flex md:flex justify-between items-center px-3 md:px-10'>
@@ -43,14 +64,14 @@
                 <div class='text-2xl font-extrabold border-b-2 border-slate-500 inline-block'>CONTACT US</div>
             </div>
             <div class='flex'>
-                <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mr-3'></a>
+                <a href='https://line.naver.jp/ti/p/@418eegfb' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mr-3'></a>
                 <a href='tel:+886-979560990' target='_blank'><img src='./asset/img/phone.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer'></a>
             </div>
         </div>
     </div>
     <!-- picture1 -->
     <div id='home' class='w-screen h-[250px] md:h-[830px] bg-bg_pic bg-cover bg-center relative'>
-        <a href='https://line.naver.jp/ti/p/~0979560990' class='w-full h-full cursor-pointer absolute' target='_blank'></a>
+        <a href='https://line.naver.jp/ti/p/@418eegfb' class='w-full h-full cursor-pointer absolute' target='_blank'></a>
     </div>
     <!-- inf1 -->
     <div id='aboutus' class='flex flex-col items-center bg-white pt-16 md:pt-[100px]'>
@@ -232,7 +253,7 @@
         <div class='text-xl text-white font-bold flex flex-col justify-center md:flex-row md:items-center px-5 md:border-x-4 border-white'>
             <div class='border-b-4 md:border-none mb-3 md:mb-0 border-white text-2xl'>CONTACT US</div>
             <div class='flex items-center'>
-                <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mx-3'></a>
+                <a href='https://line.naver.jp/ti/p/@418eegfb' target='_blank'><img src='./asset/img/line.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer mx-3'></a>
                 <a href='tel:+886-979560990' target='_blank'><img src='./asset/img/phone.png' class='w-16 md:w-10 bg-white p-1 rounded-full cursor-pointer'></a>
             </div>
         </div>
@@ -241,7 +262,8 @@
     <div class='w-screen h-[52px] md:hidden bg-white'></div>
     <div class='w-screen h-[52px] fixed flex bottom-0 md:hidden'>
         <a href='tel:+886-979560990' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-[#2196f3] cursor-pointer text-white text-xl'>立即來電</a>
-        <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-green-500 cursor-pointer text-white text-xl'>加入好友</a>
+        <a href='https://line.naver.jp/ti/p/@418eegfb' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-green-500 cursor-pointer text-white text-xl'>加入好友</a>
+        <!-- <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank' class='w-1/2 flex justify-center items-center py-3 font-bold border-2 border-white bg-green-500 cursor-pointer text-white text-xl'>加入好友</a> -->
     </div>
     <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="./Pages/js/index.js"></script>   
