@@ -238,10 +238,10 @@
     <!-- textinfo -->
     <div class='py-[5vw] flex flex-col justify-center items-center bg-opacity-50 bg-slate-700'>
         <div class='text-xl md:text-3xl text-[#d6ae78] font-extrabold text-justify px-3'>全台皆可服務，周轉不求人，線上加入諮詢。免聯徵，免保人個資絕對保密。</div>
-        <!-- <div class='flex mt-5'>
+        <div class='flex mt-5'>
             <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#7b7a61] flex justify-center items-center cursor-pointer rounded-full'>LINE線上客服</div></a>
             <a href='tel:+886-979560990' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#c39866] flex justify-center items-center cursor-pointer rounded-full'>立即來電</div></a>
-        </div> -->
+        </div>
     </div>
     <!-- footer -->
     <div class='h-42 w-screen bg-[#f08b33] flex flex-col md:flex-row items-center justify-around pb-5 md:pb-0'>
