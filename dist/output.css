@@ -709,10 +709,6 @@ video {
   height: 100vh;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -901,7 +897,7 @@ video {
 }
 
 .bg-bg_pic {
-  background-image: url("../asset/img/bg3.png");
+  background-image: url("../asset/img/bg_big.png");
 }
 
 .bg-cover {
