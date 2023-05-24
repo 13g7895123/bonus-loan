@@ -71,9 +71,9 @@
         </div>
     </div>
     <!-- picture1 -->
-    <div id='home' class='w-screen max-w-[1280px] h-auto md:h-full bg-bg_pic bg-cover bg-center relative mx-auto'>
-        
-        <a href='https://line.naver.jp/ti/p/@418eegfb' class='cursor-pointer' target='_blank'><img src="./asset/img/bg_pig.png"></a>
+    <div id='home' class='w-screen max-w-[1280px] h-auto md:h-full relative mx-auto flex justify-center'>
+    <!-- <div id='home' class='w-screen max-w-[1280px] h-auto md:h-full bg-bg_pic bg-cover bg-center relative mx-auto'> -->
+        <a href='https://line.naver.jp/ti/p/@418eegfb' class='cursor-pointer' target='_blank'><img src="./asset/img/bg-pig4.png"></a>
     </div>
     <!-- inf1 -->
     <div id='aboutus' class='flex flex-col items-center bg-white pt-16 md:pt-[100px]'>
