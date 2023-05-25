@@ -8,7 +8,7 @@ $('textarea[name="remark"]').val('');
 $('#btn_submit').click(() => {
     // get value
     var name = $('input[name="name"]').val();
-    var sex = $('select[name="sex"]').find(':selected').val();
+    var sex = $('select[name="sex"]').find(':selected').text();
     var phone = $('input[name="phone"]').val().replace(/\s*/g,"");;
     var amount = $('input[name="amount"]').val();
     var cate = $('select[name="cate"]').find(':selected').text();
