@@ -548,15 +548,21 @@ video {
   color: rgb(131 131 131 / var(--tw-text-opacity));
 }
 
+@media (min-width: 320px) {
+  .inf2_p {
+    width: 50%;
+  }
+}
+
 @media (min-width: 640px) {
   .inf2_p {
-    width: 60%;
+    width: 30%;
   }
 }
 
 @media (min-width: 768px) {
   .inf2_p {
-    width: calc(85% - 40px);
+    width: 70%;
     padding-top: 35px;
     padding-bottom: 35px;
     padding-left: 15px;
