@@ -17,6 +17,9 @@ if(isset($_GET['action'])){
                 'remark' => $_POST['remark']
             ];
 
+            echo json_encode($post_data);
+            die();
+
             MYPDO::$table = 'form_record';
             MYPDO::$data = $post_data;
             $checked = MYPDO::insert();
