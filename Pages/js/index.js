@@ -16,7 +16,7 @@ $('#btn_submit').click(() => {
     var remark = $('textarea[name="remark"]').val();
 
     // check value
-    if (name == '' || phone == '' || amount == '' || sex != '0'){
+    if (name == '' || phone == '' || amount == ''){
         alert('請確認必填項目是否有正確填寫');
     }else if(!phone.match(/^09[0-9]{8}$/)){
         alert('手機號碼有誤，請重新確認');
