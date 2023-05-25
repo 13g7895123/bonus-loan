@@ -182,7 +182,7 @@
                 <div class='w-full md:w-[45%] flex flex-col md:flex-row mb-[15px]'>
                     <label class='w-[150px] text-xl'>聯絡時間 *</label>
                     <select name='sex' class='w-full md:w-[calc(100%-150px)] py-[6px] px-[7px] bg-white'>
-                        <option>現在方便連絡</option>
+                        <option value='0'>現在方便連絡</option>
                         <option value='9:00~10:00'>9:00~10:00</option>
                         <option value='10:00~11:00'>10:00~11:00</option>
                         <option value='11:00~12:00'>11:00~12:00</option>
