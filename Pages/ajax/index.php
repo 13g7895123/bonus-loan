@@ -7,19 +7,19 @@ if(isset($_GET['action'])){
     switch ($_GET['action']) {
         case 'submit':
 
-            // $post_data = [
-            //     'name' => $_POST['name'],
-            //     'sex' => $_POST['sex'],
-            //     'phone' => $_POST['phone'],
-            //     'amount' => $_POST['amount'],
-            //     'cate' => $_POST['cate'],
-            //     'location' => $_POST['location'],
-            //     'remark' => $_POST['remark']
-            // ];
+            $post_data = [
+                'name' => $_POST['name'],
+                'sex' => $_POST['sex'],
+                'phone' => $_POST['phone'],
+                'amount' => $_POST['amount'],
+                'cate' => $_POST['cate'],
+                'location' => $_POST['location'],
+                'remark' => $_POST['remark']
+            ];
 
-            // MYPDO::$table = 'form_record';
-            // MYPDO::$data = $post_data;
-            // $checked = MYPDO::insert();
+            MYPDO::$table = 'form_record';
+            MYPDO::$data = $post_data;
+            $checked = MYPDO::insert();
 
             // if ($checked > 0){
             //     $res['success'] = true;
