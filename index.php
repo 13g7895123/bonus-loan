@@ -39,9 +39,10 @@
             <div class='text-[#6a6a6a] text-4xl font-extrabold'>
                 <img src='./asset/img/logo0520.png' class='w-60 py-2'>
             </div>
-            <div id='nav_btn' class='hidden md:flex justify-around'>
+            <div id='nav_btn' class='nav_btn hidden md:flex justify-around'>
                 <a href='javascript:void(1)' link='home' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>首頁</a>
                 <a href='javascript:void(1)' link='aboutus' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>關於我們</a>
+                <a href='javascript:void(1)' link='case' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>成功案例</a>
                 <a href='javascript:void(1)' link='service' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>服務項目</a>
                 <a href='javascript:void(1)' link='contactus' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>聯絡我們</a>
             </div>
@@ -54,9 +55,10 @@
     <!-- mobile right menu -->
     <div id='right_menu' class='w-[350px] h-screen hidden right-0 top-0 pt-10 bg-white z-20 transition ease-in-out delay-300'>
         <img id='right_menu_x' src='./asset/img/x.svg' class='absolute w-10 cursor-pointer right-3'>
-        <div class='h-[30vh] flex flex-col justify-around mb-5'>
+        <div class='nav_btn h-[30vh] flex flex-col justify-around mb-5'>
             <a href='javascript:void(1)' link='home' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>首頁</a>
             <a href='javascript:void(1)' link='aboutus' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>關於我們</a>
+            <a href='javascript:void(1)' link='case' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>成功案例</a>
             <a href='javascript:void(1)' link='service' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>服務項目</a>
             <a href='javascript:void(1)' link='contactus' class='text-[#6a6a6a] text-xl px-5 cursor-pointer'>聯絡我們</a>
         </div>
@@ -179,6 +181,7 @@
                 <div class='w-full md:w-[45%] flex flex-col md:flex-row mb-[15px]'>
                     <label class='w-[150px] text-xl'>聯絡時間 *</label>
                     <select name='sex' class='w-full md:w-[calc(100%-150px)] py-[6px] px-[7px] bg-white'>
+                        <option>現在方便連絡</option>
                         <option value='9:00~10:00'>9:00~10:00</option>
                         <option value='10:00~11:00'>10:00~11:00</option>
                         <option value='11:00~12:00'>11:00~12:00</option>
@@ -260,47 +263,48 @@
         <div class='w-[95%] max-w-[1080px]' >
             <div class='title w-full flex justify-center mb-10'>服務項目</div>
             <div class='w-[95%] flex flex-wrap mx-auto'>
-                <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
+                <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full
+                            flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
                         <img src='./asset/img/5.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>身分證借款</div>
-                    <p class='md:w-[80%] sm:w-[60%] inf2_p'>借款無需限定職業類別，快速放款能即時解決您的資金燃眉之急。我們提供寬鬆的放款條件和絕對保密的安全保障，無論您的信用紀錄是否有瑕疵、協商或遲繳都可以申請。立即向我們諮詢，我們將為您度身打造最適合您的借款方案。</p>
+                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>借款無需限定職業類別，快速放款能即時解決您的資金燃眉之急。我們提供寬鬆的放款條件和絕對保密的安全保障，無論您的信用紀錄是否有瑕疵、協商或遲繳都可以申請。立即向我們諮詢，我們將為您度身打造最適合您的借款方案。</p>
                 </div>
                 <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
                         <img src='./asset/img/6.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>小額借款</div>
-                    <p class='md:w-[80%] sm:w-[60%] inf2_p'>我們提供小額借款，無論您的職業類別是什麼，都可以申請。我們快速放款，讓您即時緩解燃眉之急。申請只需30分鐘，快速審核放款，也可選擇身分證借款等多種貸款服務，給您更多的選擇。我們的貸款服務能讓您安心借款，讓您更有信心面對未來。</p>
+                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>我們提供小額借款，無論您的職業類別是什麼，都可以申請。我們快速放款，讓您即時緩解燃眉之急。申請只需30分鐘，快速審核放款，也可選擇身分證借款等多種貸款服務，給您更多的選擇。我們的貸款服務能讓您安心借款，讓您更有信心面對未來。</p>
                 </div>
                 <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
                         <img src='./asset/img/7.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>商家週轉金</div>
-                    <p class='md:w-[80%] sm:w-[60%] inf2_p'>商家運營時常遇到資金短缺的情況，這時準備好的週轉金就能夠協助您渡過難關。由於這種情況通常十分緊急，我們提供輕鬆貸款，讓您能夠快速取得所需資金，無需擔心因緊急情況而無法及時籌措資金。</p>
+                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>商家運營時常遇到資金短缺的情況，這時準備好的週轉金就能夠協助您渡過難關。由於這種情況通常十分緊急，我們提供輕鬆貸款，讓您能夠快速取得所需資金，無需擔心因緊急情況而無法及時籌措資金。</p>
                 </div>
                 <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
                         <img src='./asset/img/8.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>疫情紓困金</div>
-                    <p class='md:w-[80%] sm:w-[60%] inf2_p'>為因應疫情帶來的影響，我們特別針對受疫情衝擊的勞工、產業和企業提供疫情紓困金。我們的紓困計劃包含「發放現金、提供貸款、減輕負擔」三個方面，擴大了紓困對象，簡化了申請流程。我們的勞工紓困貸款不受勞保限制，讓更多的人能夠受惠。</p>
+                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>為因應疫情帶來的影響，我們特別針對受疫情衝擊的勞工、產業和企業提供疫情紓困金。我們的紓困計劃包含「發放現金、提供貸款、減輕負擔」三個方面，擴大了紓困對象，簡化了申請流程。我們的勞工紓困貸款不受勞保限制，讓更多的人能夠受惠。</p>
                 </div>
                 <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
                         <img src='./asset/img/9.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>支票借款</div>
-                    <p class='md:w-[80%] sm:w-[60%] inf2_p'>我們提供支票借款服務，讓您能夠快速地將支票轉換為現金，無論您是個人戶還是公司戶，無論支票期限長短，我們都能全額貼現，避免您需要繁瑣的銀行手續。我們還能代替錢莊和當舖提供貼現服務，讓您在資金運用上更加省心省力。</p>
+                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>我們提供支票借款服務，讓您能夠快速地將支票轉換為現金，無論您是個人戶還是公司戶，無論支票期限長短，我們都能全額貼現，避免您需要繁瑣的銀行手續。我們還能代替錢莊和當舖提供貼現服務，讓您在資金運用上更加省心省力。</p>
                 </div>
                 <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
                         <img src='./asset/img/10.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>民間借款整合</div>
-                    <p class='md:w-[80%] sm:w-[60%] inf2_p'>我們提供民間借款整合服務，無論您的個人條件如何，我們都能免徵信和免保人，快速放款並且沒有區域限制。我們的民間貸款服務讓您靈活取得資金，申辦流程簡便，且核貸速度快，避免了銀行高門檻和錢莊高利息的問題。</p>
+                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>我們提供民間借款整合服務，無論您的個人條件如何，我們都能免徵信和免保人，快速放款並且沒有區域限制。我們的民間貸款服務讓您靈活取得資金，申辦流程簡便，且核貸速度快，避免了銀行高門檻和錢莊高利息的問題。</p>
                 </div>
             </div>
         </div>
@@ -309,30 +313,37 @@
     <div class='py-[5vw] flex flex-col justify-center items-center bg-opacity-50 bg-[#fff8e1]'>
         <div class='text-xl md:text-3xl text-[#d6ae78] font-extrabold text-justify px-3'>全台皆可服務，周轉不求人，線上加入諮詢。免聯徵，免保人個資絕對保密。</div>
         <div class='flex mt-5'>
-            <a href='https://line.naver.jp/ti/p/~0979560990' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#7b7a61] flex justify-center items-center cursor-pointer rounded-full'>LINE線上客服</div></a>
+            <a href='https://line.naver.jp/ti/p/@418eegfb' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#7b7a61] flex justify-center items-center cursor-pointer rounded-full'>LINE線上客服</div></a>
             <a href='tel:+886-979560990' target='_blank'><div class='w-44 px-5 py-3 mx-3 text-[#eadcc8] bg-[#c39866] flex justify-center items-center cursor-pointer rounded-full'>立即來電</div></a>
         </div>
     </div>
     <!-- footer -->
-    <div class='h-42 bg-[#f08b33] flex flex-col justify-center md:py-5 sm:py-0 sm:pt-5 min-[320px]:py-0 min-[320px]:pt-5 md:pb-0'>
+    <div class='h-42 bg-[#f08b33] flex flex-col justify-center md:py-5 sm:py-0 sm:pt-5 sm:px-5 min-[320px]:px-5 min-[320px]:py-0 min-[320px]:pt-5 md:pb-0'>
     <!-- <div class='h-42 w-screen bg-[#f08b33] flex flex-col md:flex-row items-center justify-around pb-5 md:pb-0'> -->
-        <div class="flex md:flex-row sm:flex-col min-[320px]:flex-col justify-center mb-3">
+        <div class="flex md:flex-row sm:flex-col min-[320px]:flex-col justify-center mb-3 ">
             <!-- 聯絡方法 -->
-            <div class="md:w-72 sm:w-full min-[320px]:w-full flex flex-col px-3 sm:px-0 sm:pl-5 min-[320px]:px-0 min-[320px]:pl-5">
+            <div class="md:w-72 sm:w-full min-[320px]:w-full
+                        flex flex-col 
+                         
+                        ">
                 <div class="text-white pl-3 border-l-4 border-slate-700 mb-3">聯絡方法</div>
-                <div class="w-60 flex items-center mb-2 sm:mx-auto min-[320px]:mx-auto">
+                <div class="sm:w-96 min-[320px]:w-56
+                            flex items-center
+                            mb-2 sm:mx-auto min-[320px]:mx-auto">
                 <!-- <div class="w-auto sm:w-60 flex items-center mb-2 sm:mx-auto"> -->
                     <img src='./asset/img/phone.png' class='w-8 md:w-8 bg-white p-[0.1rem] rounded-full cursor-pointer'>
                     <a href='tel:+886-979560990' target='_blank' class="text-white ml-1">連絡電話：0979-560-990</a>
                 </div>
-                <div class="md:w-60 flex items-center mb-5 sm:mx-auto min-[320px]:mx-auto">
+                <div class="sm:w-96 min-[320px]:w-56
+                            flex items-center 
+                            mb-5 sm:mx-auto min-[320px]:mx-auto">
                 <!-- <div class="w-auto sm:w-60 flex items-center mb-5 sm:mx-auto"> -->
                     <img src='./asset/img/line.png' class='w-8 md:w-8 bg-white p-[0.1rem] rounded-full cursor-pointer'>
                     <a href='https://line.naver.jp/ti/p/@418eegfb' target='_blank' class="text-white ml-1">LINE ID：@418eegfb</a>  
                 </div>       
             </div>
             <!-- 重要提醒 -->
-            <div class=' ml-10 sm:ml-5'>
+            <div class=''>
             <!-- <div class='w-[30rem] ml-10 sm:ml-5 sm:w-full'> -->
                 <div class="text-white pl-3 border-l-4 border-slate-700 mb-3">重要提醒</div>
                 <div class="pl-5">
@@ -347,7 +358,7 @@
         </div>
         <!-- COPY RIGHT -->
         <div class='flex items-center'>
-            <label class='w-full text-center text-white border-t border-white mx-3 py-2 font-bold'>Copyright©2022 鴻遠企業社 隱私權政策</label>
+            <label class='w-full text-center text-white border-t border-white mx-3 py-2 font-bold'>Copyright©2023 鴻遠企業社 隱私權政策</label>
         </div>
         <!-- logo -->
         <!-- <div class=''>

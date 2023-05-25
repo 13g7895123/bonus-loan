@@ -62,7 +62,10 @@ $('#btn_burger').click(()=>{
 })
 
 // 滾動動畫
-$("#nav_btn a").bind("click",function(){
+$(".nav_btn a").bind("click",function(){
+
+    $('#right_menu').addClass('hidden')
+    $('#right_menu').removeClass('fixed')
 
     var link = $(this).attr("link");
 
