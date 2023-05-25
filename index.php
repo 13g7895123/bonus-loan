@@ -124,6 +124,7 @@
                         <img src='./asset/img/businessman.png' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>台北張先生<span class='ml-1 text-sm text-[#4d4d4d] font-semibold mb-10'>創業老闆</span></div>
+                    <!-- <p class='md:w-[70%] sm:w-[60%] inf2_p'>初創業需要一份週轉金，五金百貨批貨需要先墊貨款，每常這樣墊也吃不消，有了易速貸，讓他的資金可以先支付代墊，終於不用這麼有壓力</p> -->
                     <p class='md:w-[70%] sm:w-[60%] inf2_p'>初創業需要一份週轉金，五金百貨批貨需要先墊貨款，每常這樣墊也吃不消，有了易速貸，讓他的資金可以先支付代墊，終於不用這麼有壓力</p>
                 </div>
                 <!-- 2 -->
@@ -269,7 +270,7 @@
                         <img src='./asset/img/5.PNG' class='w-[100px] h-auto'>
                     </div>
                     <div class='text-xl text-[#4d4d4d] font-semibold mb-10'>身分證借款</div>
-                    <p class='md:w-[80%] sm:w-[60%] min-[320px]:w-[60%] inf2_p'>借款無需限定職業類別，快速放款能即時解決您的資金燃眉之急。我們提供寬鬆的放款條件和絕對保密的安全保障，無論您的信用紀錄是否有瑕疵、協商或遲繳都可以申請。立即向我們諮詢，我們將為您度身打造最適合您的借款方案。</p>
+                    <p class='md:w-[80%] sm:w-1/2 min-[320px]:w-[60%] inf2_p'>借款無需限定職業類別，快速放款能即時解決您的資金燃眉之急。我們提供寬鬆的放款條件和絕對保密的安全保障，無論您的信用紀錄是否有瑕疵、協商或遲繳都可以申請。立即向我們諮詢，我們將為您度身打造最適合您的借款方案。</p>
                 </div>
                 <div class='w-[50%] md:w-[33.3%] sm:w-full mix-[320px]:w-full flex flex-col items-center my-[40px]'>
                     <div class='w-[100px] h-[100px] flex justify-center items-center mb-5'>
