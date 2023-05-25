@@ -42,12 +42,12 @@ if(isset($_GET['action'])){
 
 function line_notify($token, $form_data){
 
-    $sex = $form_data['sex'] == 'M' ? '男' : '女';
+    // $sex = $form_data['sex'] == 'M' ? '男' : '女';
 
     $msg = PHP_EOL.
         '【易速貸官網通知】'.PHP_EOL.
         '【姓名】'.$form_data['name'].PHP_EOL.
-        '【性別】'.$sex.PHP_EOL.
+        '【性別】'.$form_data['sex']x.PHP_EOL.
         '【手機】'.$form_data['phone'].PHP_EOL.
         '【金額】'.$form_data['amount'].PHP_EOL.
         '【類別】'.$form_data['cate'].PHP_EOL.
