@@ -327,14 +327,14 @@
                          
                         ">
                 <div class="text-white pl-3 border-l-4 border-slate-700 mb-3">聯絡方法</div>
-                <div class="sm:w-96 min-[320px]:w-56
+                <div class="sm:w-96 min-[320px]:w-64
                             flex items-center
                             mb-2 sm:mx-auto min-[320px]:mx-auto">
                 <!-- <div class="w-auto sm:w-60 flex items-center mb-2 sm:mx-auto"> -->
                     <img src='./asset/img/phone.png' class='w-8 md:w-8 bg-white p-[0.1rem] rounded-full cursor-pointer'>
                     <a href='tel:+886-979560990' target='_blank' class="text-white ml-1">連絡電話：0979-560-990</a>
                 </div>
-                <div class="sm:w-96 min-[320px]:w-56
+                <div class="sm:w-96 min-[320px]:w-64
                             flex items-center 
                             mb-5 sm:mx-auto min-[320px]:mx-auto">
                 <!-- <div class="w-auto sm:w-60 flex items-center mb-5 sm:mx-auto"> -->
