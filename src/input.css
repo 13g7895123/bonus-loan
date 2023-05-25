@@ -13,3 +13,18 @@
         @apply w-[calc(85%-10px)] md:w-[70%] sm:w-[30%] min-[320px]:w-[50%] text-[#838383] text-justify font-semibold py-3 md:py-[35px] px-3 md:px-[15px] bg-[#e5e5e594] rounded-lg
     }
 }
+
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }
