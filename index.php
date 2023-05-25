@@ -24,8 +24,13 @@
     <link rel="stylesheet" href="./dist/output.css" > 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     
+    <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
-<body class='bg-fixed relative overflow-y-scroll overflow-x-hidden'>
+<body class='bg-fixed relative overflow-y-auto overflow-x-hidden'>
 <!-- <body class='bg-bg_pic bg-fixed relative overflow-y-scroll overflow-x-hidden'> -->
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW67D7R"
@@ -182,7 +187,7 @@
                 <div class='w-full md:w-[45%] flex flex-col md:flex-row mb-[15px]'>
                     <label class='w-[150px] text-xl'>聯絡時間 *</label>
                     <select name='sex' class='w-full md:w-[calc(100%-150px)] py-[6px] px-[7px] bg-white'>
-                        <option value='0'>現在方便連絡</option>
+                        <option value='現在方便連絡'>現在方便連絡</option>
                         <option value='9:00~10:00'>9:00~10:00</option>
                         <option value='10:00~11:00'>10:00~11:00</option>
                         <option value='11:00~12:00'>11:00~12:00</option>
