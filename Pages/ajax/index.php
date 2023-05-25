@@ -17,28 +17,25 @@ if(isset($_GET['action'])){
                 'remark' => $_POST['remark']
             ];
 
-            echo json_encode($post_data);
-            die();
-
             MYPDO::$table = 'form_record';
             MYPDO::$data = $post_data;
             $checked = MYPDO::insert();
 
-            // if ($checked > 0){
-            //     $res['success'] = true;
+            if ($checked > 0){
+                $res['success'] = true;
 
-            //     // NOTIFY
-            //     $tokens = TOKENS;
-            //     foreach ($tokens as $token) {
-            //         // line_notify($token, $post_data);
-            //     }
+                // NOTIFY
+                $tokens = TOKENS;
+                foreach ($tokens as $token) {
+                    line_notify($token, $post_data);
+                }
                 
-            // }else{
-            //     $res['success'] = false;
-            //     $res['msg'] = '寫入資料庫錯誤';
-            // }
+            }else{
+                $res['success'] = false;
+                $res['msg'] = '寫入資料庫錯誤';
+            }
 
-            // echo json_encode($res);
+            echo json_encode($res);
             break;
     }
 }
